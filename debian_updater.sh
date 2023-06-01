@@ -1,3 +1,4 @@
+# All in one debian package update-upgrade-remove-cleaner
 #!/bin/bash
 
 sudo apt update && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
