@@ -1,4 +1,4 @@
-# Bash-aliases
+# bash-script-arvhive
 
 Here you can find any short of bash script you like.  
 This is an initial thought of creating bash aliases and call them from here with:  
