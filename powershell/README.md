@@ -1,4 +1,4 @@
-## Powershell scripts section
+# Powershell scripts section
 You can directly run each script using:
 ```
 powershell -ExecutionPolicy Bypass $(curl https://raw.githubusercontent.com/h1dd3n3y3/shell-script-archive/main/powershell/script_name.ps1)
