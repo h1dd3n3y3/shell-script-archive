@@ -1,5 +1,5 @@
-# Shoutout to u01jmg3 for HIS script
-# HIS github gist code template: https://gist.github.com/u01jmg3/0305dee156158f5c987056c4ff0df94e
+# Toggle Windows Bluetooth by setting the flag "-BluetoothStatus" to "On" or "Off"
+# Shoutout to u01jmg3 for HIS github gist code template: https://gist.github.com/u01jmg3/0305dee156158f5c987056c4ff0df94e
 
 [CmdletBinding()] Param (
     [Parameter(Mandatory=$true)][ValidateSet('Off', 'On')][string]$BluetoothStatus
