@@ -1,8 +1,5 @@
-# bash-script-arvhive
+# shell-script-arvhive
 
-Here you can find any short of bash script you like.  
-This is an initial thought of creating bash aliases and call them from here with:  
-```
-curl -k -sS https://raw.githubusercontent.com/h1dd3n3y3/bash-script-archive/main/script_name.sh | bash
-```
-You MUST change the `script_name.sh` according to your script preference.
+Here you can find various shell scripts that fit you needs.  
+A thought of avoiding writing every script from scratch.  
+You can use `curl` which is built in, to call each one of them.
