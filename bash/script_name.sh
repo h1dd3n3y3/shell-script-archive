@@ -1,3 +1,4 @@
+# A reminder script for dummies, lazy to read the README.md
 #!/bin/bash
 
 echo "Seriously, read the README.md CAREFULLY!"
