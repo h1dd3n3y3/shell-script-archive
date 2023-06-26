@@ -3,4 +3,4 @@ You can directly run each script using:
 ```
 IEX (IRM -UseBasicParsing 'https://raw.githubusercontent.com/h1dd3n3y3/shell-script-archive/main/powershell/script_name.ps1')
 ```
-You **MUST** change the `script_name.ps1` according to your script preference.
+You **MUST** change the **`script_name.ps1`** according to your script preference.
