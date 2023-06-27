@@ -1,7 +1,7 @@
 $clientIP = "192.168.1.2" # IP Address of the listening machine
 $clientPort = 55555 # Port Number of the listening machine
 
-if ($args.Length -eq 2) { # Set client IP and Port as command line arguments
+if ($args.Length -eq 2) { # Ability to set client IP and Port as command line arguments
     $clientIP = $args[0]
     $clientPort = $args[1]
 }
