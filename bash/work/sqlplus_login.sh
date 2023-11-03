@@ -8,4 +8,5 @@ url=$(cat $conf_file | grep url | head -1 | cut -d'"' -f2 | sed 's/.*@//')
 
 sqlplus $username/"$password"@$url
 
-sleep 5
+echo
+echo
