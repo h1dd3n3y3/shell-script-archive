@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 conf_file="$HOME/services/apache-tomcat-*-CORE/conf/context.xml"
 
 username=$(cat $conf_file | grep username | head -1 | cut -d'"' -f2)
