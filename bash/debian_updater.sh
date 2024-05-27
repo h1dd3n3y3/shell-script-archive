@@ -10,5 +10,5 @@ else
     apt update && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
     apt upgrade -y && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
     apt dist-upgrade -y && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
-    apt autoremove -y && sudo apt clean && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
+    apt autoremove -y && apt clean && echo -e "[\e[32m+\e[0m]\e[32mOK\e[0m\n"
 fi
