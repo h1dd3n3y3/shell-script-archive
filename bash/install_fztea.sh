@@ -73,5 +73,5 @@ sudo mv -fv $HOME/go/bin/fztea /usr/local/go/bin/
 sudo chown root:root /usr/local/go/bin/fztea
 ls -l /usr/local/go/bin/fztea
 echo "[!] Removing obsolete files..."
-sudo rm -rfv $HOME/go/ go*tar.gz
+sudo rm -rf $HOME/go/ go*tar.gz
 echo "[+] Done!"
