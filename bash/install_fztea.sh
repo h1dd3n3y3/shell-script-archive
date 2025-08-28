@@ -1,8 +1,6 @@
 # All in one fztea installation https://github.com/jon4hz/fztea
 #!/bin/bash
 
-set -x
-
 # Check and prompt tmux installation
 if command -v tmux >/dev/null 2>&1; then
     echo "[+] Tmux is installed: $(tmux -V)"
@@ -71,9 +69,9 @@ fi
 echo "[!] Installing fztea via go..."
 go install github.com/jon4hz/fztea@latest
 echo "[!] Moving fztea under /usr/local/go/bin/..."
-sudo mv -iv $HOME/go/bin/fztea /usr/local/go/bin/
+sudo mv -fv $HOME/go/bin/fztea /usr/local/go/bin/
 sudo chown root:root /usr/local/go/bin/fztea
 ls -l /usr/local/go/bin/fztea
 echo "[!] Removing obsolete files..."
-sudo rm -rf $HOME/go/ go*tar.gz
+sudo rm -rfv $HOME/go/ go*tar.gz
 echo "[+] Done!"
