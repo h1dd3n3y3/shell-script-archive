@@ -1,6 +1,8 @@
 # All in one fztea installation https://github.com/jon4hz/fztea
 #!/bin/bash
 
+set -x
+
 # Check and prompt tmux installation
 if command -v tmux >/dev/null 2>&1; then
     echo "[+] Tmux is installed: $(tmux -V)"
