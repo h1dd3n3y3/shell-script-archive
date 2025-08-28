@@ -1,3 +1,4 @@
+# All in one fztea installation https://github.com/jon4hz/fztea
 #!/bin/bash
 
 # Check and prompt tmux installation
